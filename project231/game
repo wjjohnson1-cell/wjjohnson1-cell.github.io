@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Game — Test Your JavaScript</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container branding">
+      <div>
+        <h1>JavaScript Challenges</h1>
+        <p>Try a quick level to sharpen your skills</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="game.html" aria-current="page">Game</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="site-main container">
+    <section class="card">
+      <h2>Level 1 — Variables</h2>
+      <!-- Instructions -->
+      <p>Write the value of the variable `name` to the console:</p>
+      <div>
+        <!-- Text area for user to type JavaScript (demo only) -->
+        <label for="code">Your code</label>
+        <textarea id="code" rows="8" placeholder="Type JavaScript here..." class="code-box"></textarea>
+      </div>
+      <div style="margin-top:12px">
+        <button class="btn" id="runBtn">Run (demo)</button>
+        <button class="btn" id="submitBtn">Submit (demo)</button>
+      </div>
+      <!-- Output window -->
+      <div style="margin-top:14px">
+        <h3>Output</h3>
+        <div class="card">
+          <pre id="output" style="white-space:pre-wrap">Console output will appear here (demo).</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="social">
+        <a class="social-link" href="#"><i class="fab fa-github"></i></a>
+      </div>
+      <small>&copy; 2025 JavaScript4Fun</small>
+    </div>
+
+    <!-- HTML & CSS Validators -->
+    <p style="text-align:center; margin-top:15px;">
+      <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> |
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </p>
+
+  </footer>
+</body>
+</html>
+

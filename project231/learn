@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Learn — Test Your JavaScript</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header with branding + navigation -->
+  <header class="site-header">
+    <div class="container branding">
+      <div>
+        <h1>Learn JavaScript</h1>
+        <p>Short lessons and example snippets</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html" aria-current="page">Learn</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="site-main container">
+    <div class="grid">
+       <!-- Left content column -->
+      <section class="card">
+        <h2>Variables</h2>
+        <p>Variables store values such as numbers and text. Example:</p>
+        <div class="code-box">let count = 0; <br> let name = "Jax";</div>
+
+        <h3>Loops</h3>
+        <p>Use loops to repeat operations:</p>
+        <div class="code-box">for (let i = 0; i &lt; 5; i++) { console.log(i); }</div>
+
+        <h3>Functions</h3>
+        <p>Functions encapsulate behavior:</p>
+        <div class="code-box">function greet(name) { return `Hello ${name}`; }</div>
+
+      </section>
+      <!-- Right column - quick navigation and links -->
+      <aside class="card" aria-labelledby="lesson-quicklinks">
+        <h3 id="lesson-quicklinks">Quick Links</h3>
+        <p><a href="game.html" class="btn">Practice Challenges</a></p>
+        <p>External resources: <a href="https://developer.mozilla.org" target="_blank" rel="noopener">MDN</a></p>
+      </aside>
+    </div>
+  </main>
+
+    <footer class="site-footer">
+    <div class="container">
+      <div class="social">
+        <a class="social-link" href="#"><i class="fab fa-github"></i></a>
+        <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+
+      <small>&copy; 2025 JavaScript4Fun</small>
+    </div>
+
+    <!-- HTML & CSS Validators -->
+    <p style="text-align:center; margin-top:15px;">
+      <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> |
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </p>
+
+  </footer>
+</body>
+</html>

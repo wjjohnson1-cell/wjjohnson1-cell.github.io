@@ -1,0 +1,151 @@
+/* css/style.css */
+
+/* Reset & base */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: 16px; }
+body {
+  font-family: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #1f2937; /* dark gray */
+  line-height: 1.55;
+  background: #fbfdff;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* Layout container */
+.container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+
+/* Header */
+header.site-header {
+  background: linear-gradient(90deg,#0f172a,#0b1220);
+  color: #fff;
+}
+.site-header .branding {
+  padding: 18px 0;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.branding h1 {
+  font-size: 1.5rem;
+  letter-spacing: 0.6px;
+  margin-bottom: 4px;
+}
+.branding p { font-size: 0.95rem; opacity: 0.9; }
+
+/* Navigation inside header */
+nav.site-nav {
+  background: rgba(255,255,255,0.03);
+  border-top: 1px solid rgba(255,255,255,0.04);
+}
+nav.site-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 14px;
+  padding: 10px 0;
+  justify-content: center;
+}
+nav.site-nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background .18s, color .18s;
+}
+nav.site-nav a:hover,
+nav.site-nav a[aria-current="page"] {
+  background: rgba(255,255,255,0.08);
+  color: #e6eefb;
+}
+
+/* Main */
+main.site-main {
+  padding: 28px 0;
+}
+main .grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 22px;
+}
+
+/* Content card */
+.card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(11,22,33,0.05);
+}
+
+/* Headings and text */
+h2 { font-size: 1.25rem; margin-bottom: 10px; color: #0f172a; }
+h3 { margin-top: 12px; color: #0b1220; font-size: 1rem; }
+p { color: #334155; font-size: 0.98rem; max-width: 70ch; }
+
+/* Images */
+.hero-image {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  background: #0ea5a4;
+  color: #022; 
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.btn:hover { background: #059a98; }
+
+/* Form elements */
+form label { display: block; font-weight: 600; margin-top: 10px; }
+input[type="text"], input[type="email"], textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #dbe4ea;
+  margin-top: 8px;
+  font-size: 0.95rem;
+  background: #fcfeff;
+}
+
+/* Code box for examples */
+.code-box {
+  font-family: "Consolas", "Courier New", monospace;
+  background: #0b1220;
+  color: #d1fae5;
+  padding: 12px;
+  border-radius: 8px;
+  overflow-x: auto;
+}
+
+/* Footer */
+footer.site-footer {
+  margin-top: 26px;
+  padding: 20px 0;
+  background: #0b1220;
+  color: #cfeef0;
+}
+footer .social {
+  display:flex;
+  gap: 12px;
+  justify-content: center;
+}
+footer a.social-link {
+  color: #cfeef0;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+footer small { display:block; margin-top: 8px; opacity: 0.85; }
+
+/* Responsive tweaks (optional for future) */
+@media (min-width: 820px) {
+  main .grid { grid-template-columns: 1fr 320px; }
+}
