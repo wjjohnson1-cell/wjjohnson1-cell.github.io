@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About — Test Your JavaScript</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container branding">
+      <div>
+        <h1>About</h1>
+        <p>Contact and project background</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="about.html" aria-current="page">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="site-main container">
+    <section class="card">
+      <h2>About this Project</h2>
+      <p>This game was created to provide an interactive, fun environment to learn JavaScript fundamentals.</p>
+      <h3>Contact</h3>
+      <form>
+        <label for="name">Name</label>
+        <input id="name" type="text" placeholder="Your name">
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="you@example.com">
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Say hi"></textarea>
+        <button type="submit" class="btn">Send</button>
+      </form>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <div class="container">
+      <div class="social">
+        <a class="social-link" href="#"><i class="fab fa-github"></i></a>
+        <a class="social-link" href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+
+      <small>&copy; 2025 JavaScript4Fun</small>
+    </div>
+
+    <!-- HTML & CSS Validators -->
+    <p style="text-align:center; margin-top:15px;">
+      <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> |
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </p>
+
+  </footer>
+</body>
+</html>
+

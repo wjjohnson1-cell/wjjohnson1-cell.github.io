@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This is the main title page of the website-->
+<head>
+  <meta charset="utf-8">
+  <title>Test Your JavaScript - Home</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- HEADER SECTION -->
+  <!-- Contains site branding and the main navigation bar -->
+  <header class="site-header">
+    <div class="container branding">
+      <div>
+        <h1>JavaScript4Fun</h1>
+        <p>Test Your JavaScript: A challenge platform for JavaScript Learners</p>
+      </div>
+    </div>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <div class="container">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+ <!-- Main content area -->
+<main class="site-main container" id="home">
+    <section class="card">
+      <h2>Welcome to Test Your JavaScript</h2>
+      <p>Learn and practice JavaScript fundamentals with short, focused challenges that help you build confidence with variables, loops, functions, and more.</p>
+      <p>Perfect for beginners or anyone wanting daily practice.</p>
+      <img class="hero-image" src="images/js-hero.png" alt="Illustration of JavaScript learning" />
+      <p style="margin-top:12px"><a class="btn" href="learn.html">Start Learning</a></p>
+    </section>
+  </main>
+
+    <footer class="site-footer">
+    <div class="container">
+
+      <div class="social">
+        <a class="social-link" href="#"><i class="fab fa-github"></i></a>
+        <a class="social-link" href="#"><i class="fab fa-linkedin"></i></a>
+        <a class="social-link" href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+
+      <small>&copy; 2025 JavaScript4Fun — Created by Jax Johnson</small>
+    </div>
+
+    <!-- HTML & CSS Validators -->
+    <p style="text-align:center; margin-top:15px;">
+      <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a> |
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+    </p>
+
+  </footer>
+</body>
+</html>
